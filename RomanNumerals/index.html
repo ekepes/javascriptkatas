@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TimePiece Object Unit Tests</title>
+    <link rel="stylesheet" href="./Qunit/qunit.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="./qunit/qunit.js" ></script>
+    <script type="text/javascript">
+        module("When converting an integer into a roman numeral");
+
+        test("should receive I when passing a 1", function() {
+            equal(NumeralConverter.get_arabic_numeral("I"), 1, "I was returned when 1 was passed as a parameter.");
+        })
+    </script>
+</head>
+<body>
+    <p>Roman to Arabic, Arabic to Roman...</p>
+    <span>QUnit Test Results...</span>
+    <h1 id="qunit-header">Numeral Conversions</h1>
+    <h2 id="qunit-banner"></h2>
+    <div id="qunit-testrunner-toolbar"></div>
+    <h2 id="qunit-userAgent"></h2>
+    <ol id="qunit-tests"></ol>
+    <div id="qunit-fixture">hidden text</div>
+</body>
+</html>
