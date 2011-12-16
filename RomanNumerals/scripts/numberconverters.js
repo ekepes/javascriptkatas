@@ -6,6 +6,9 @@ var NumeralConverter = {
         else if (romanNumeral == "V"){
             return 5;
         }
+        else if (romanNumeral == "VI"){
+            return 6;
+        }
         return romanNumeral.length;
     }
 };

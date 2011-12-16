@@ -19,3 +19,7 @@ test("should receive IV when passing a 4", function() {
 test("should receive V when passing a 5", function() {
     equal(NumeralConverter.get_arabic_numeral("V"), 5, "5 was returned when 'V' was passed as a parameter.");
 });
+
+test("should receive VI when passing a 6", function() {
+    equal(NumeralConverter.get_arabic_numeral("VI"), 6, "6 was returned when 'VI' was passed as a parameter.");
+});
